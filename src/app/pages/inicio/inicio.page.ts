@@ -23,6 +23,16 @@ export class InicioPage implements OnInit {
       icon: 'ice-cream',
       name: 'alert',
       redirectTo: '/alert'
+    },
+    {
+      icon: 'beaker',
+      name: 'avatar',
+      redirectTo: '/avatar'
+    },
+    {
+      icon: 'radio-button-off',
+      name: 'button',
+      redirectTo: '/button'
     }
   ];
 
