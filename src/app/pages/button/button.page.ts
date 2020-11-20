@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ButtonPage implements OnInit {
 
+  fav: boolean = false;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onClick(){
+    this.fav = !this.fav;
   }
 
 }
